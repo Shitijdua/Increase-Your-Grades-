@@ -1,0 +1,367 @@
+header {
+  background-color: wheat;
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.title a {
+  color: rgb(145, 16, 16);
+  text-decoration: none;
+  text-decoration: wavy;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.site-nav a {
+  text-decoration: none;
+}
+
+video {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.site-nav ul {
+  list-style: none;
+}
+
+.site-nav li a {
+  color: red;
+  float: left;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 30px;
+  border: solid 3px red;
+  background-color: black;
+  color: white;
+}
+
+.site-nav li a:hover {
+  font-size: 35px;
+  transition: 0.8s;
+  opacity: 0.5;
+}
+
+.head {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 35px;
+  font-style: italic;
+  font-family: sans-serif;
+  color: blue;
+}
+
+.head-description {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.head .head-description {
+  column-count: 3;
+  width: 100%;
+  column-gap: 3px;
+}
+
+/*table {
+  border-spacing: 0 15px;
+  font-family: sans-serif;
+  border: 1px solid;
+  color: red;
+}
+
+td {
+  padding: 0;
+  margin-top: 20px;
+  font-size: 20px;
+  border: 1px solid;
+  text-align: center;
+}
+
+th {
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  column-gap: 10%;
+}
+*/
+
+.reason-to-choose {
+  color: rgb(145, 16, 16);
+  font-size: 28px;
+}
+.reason-to-choose-desc {
+  color: black;
+  font-size: 22px;
+  margin-left: 100px;
+  margin-right: 80px;
+  font-style: italic;
+  text-decoration: underline;
+  width: 80%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.reasons {
+  text-align: center;
+}
+
+.reason-to-choose img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.content {
+  width: 80%;
+}
+
+.side-bar {
+  float: right;
+  width: 25%;
+  right: 0;
+  margin-top: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.side-bar-links li a {
+  text-decoration: none;
+  color: red;
+  font-size: 18px;
+}
+
+footer {
+  font-size: 25px;
+  border: 3px solid black;
+  background-color: wheat;
+}
+
+.side-bar ul {
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}
+
+.quicklinks {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.quicklinks {
+  text-decoration: none;
+  list-style: none;
+}
+
+.quicklinks a {
+  text-decoration: none;
+  color: red;
+}
+
+.quicklinks a:hover {
+  font-size: 26px;
+}
+
+.register {
+  margin-top: 100px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: tomato;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/* Registeration form */
+
+.container {
+  text-align: center;
+}
+
+input {
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  margin-right: 100px;
+}
+
+form {
+  text-align: center;
+}
+
+.teacher,
+.student {
+  font-size: 30px;
+  font-style: italic;
+  width: 50%;
+  text-align: center;
+}
+
+.form,
+.form2 {
+  background-image: url("tuition.jpg");
+}
+
+.marq {
+  font-size: 20px;
+  color: darkred;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.quicklinksdesc {
+  color: blue;
+}
+
+.contact {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: crimson;
+}
+
+.contact-desc {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contactimg {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.teachers {
+  margin-top: 100px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: indigo;
+}
+
+.sub {
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bold;
+  color: indigo;
+}
+
+@media only screen and (min-width: 300px) {
+  .site-nav ul {
+    padding: 0;
+    font-size: 15px;
+    border: 1px solid red;
+    margin-top: 10px;
+  }
+
+  .site-nav ul {
+    margin-top: 20px;
+  }
+
+  video {
+    width: 300px;
+    height: 500px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .head {
+    padding: 0px;
+    font-size: 25px;
+  }
+
+  .head-description {
+    padding: 0px;
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .reason-to-choose img {
+    margin-left: 20px;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 5px;
+  }
+
+  .side-bar {
+    display: none;
+  }
+
+  .reason-to-choose-desc {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    display: block;
+  }
+
+  .foot {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .head {
+    margin-bottom: 10px;
+  }
+  .about-inc {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .teachers {
+    margin-top: 450px;
+  }
+  .teacher,
+  .student {
+    margin-top: 200px;
+  }
+
+  .sub {
+    margin-top: 450px;
+  }
+
+  .form {
+    width: 100px;
+    position: absolute;
+  }
+
+  .contact {
+    margin-top: 500px;
+  }
+  .contact-desc {
+    font-size: 20px;
+  }
+
+  .contact-desc img {
+    width: 300px;
+    height: 300px;
+  }
+}
