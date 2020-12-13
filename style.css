@@ -28,7 +28,7 @@ header {
 }
 
 video {
-  margin-top: 60px;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -233,7 +233,7 @@ form {
 }
 
 .contact {
-  margin-top: 100px;
+  margin-top: 130px;
   text-align: center;
   font-size: 35px;
   font-weight: bold;
@@ -256,7 +256,7 @@ form {
 }
 
 .teachers {
-  margin-top: 100px;
+  margin-top: 130px;
   font-size: 30px;
   text-align: center;
   font-weight: bold;
@@ -265,7 +265,7 @@ form {
 
 .sub {
   font-size: 30px;
-  margin-top: 100px;
+  margin-top: 130px;
   text-align: center;
   font-weight: bold;
   color: indigo;
