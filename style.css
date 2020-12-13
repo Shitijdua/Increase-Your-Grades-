@@ -271,7 +271,7 @@ form {
   color: indigo;
 }
 
-@media only screen and (min-width: 300px) {
+@media (min-width: 300px) and (max-width:800px) {
   .site-nav ul {
     padding: 0;
     font-size: 15px;
